@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    padding: 5vh 10vw;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(49, 49, 49);
+    background-image: url("https://assets.gadgets360cdn.com/pricee/assets/product/202301/Animal_1673270841.jpg");
+    background-position: top;
+    background-size: cover;
+}
+#right{
+    height: 100%;
+    width: 55%;
+    /* background:blue; */
+    padding: 0 3vw;
+}
+h1{
+    font-size: 40px;
+}
+
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #bbbbbb;
+    padding: 18px 15px;
+}
+.song-card:hover{
+    background-color: #3f3f3f;
+}
+.song-card:nth-last-child(1){
+    border-bottom: 1px solid #bbbbbb;
+}
+.song-card .part1{
+    display: flex;
+    align-items: center;
+}
+.song-card img{
+    height: 55px;
+    width: 55px;
+    margin-right: 20px;
+}
+.song-card .part1 h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.song-card h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+#player{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+#player h3{
+    background-color: rgb(73, 73, 73);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#player h3 i{
+    font-size: 24px;
+}
+#player h3:active{
+    scale:   0.9;
+}
